@@ -18,5 +18,8 @@ public class CourseKey extends Prefix{
     //对象缓存一般没有有效期，永久有效
     public static CourseKey getCourseStudentById=new CourseKey(0,"courseStudent_id");
 
-    public static CourseKey getCourseCount= new CourseKey(0,"course_count");
+    public static CourseKey getCourseSurplus = new CourseKey(0, "course_surplus");
+
+    public static CourseKey getCourseById= new CourseKey(0,"course_id");
+
 }
